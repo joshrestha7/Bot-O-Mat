@@ -1,0 +1,37 @@
+#title {
+	text-align: center;
+	margin:auto;
+}
+
+#input-container {
+	text-align: center;
+	margin:auto;	
+}
+
+.start {
+	padding: 10px;
+}
+
+#robot-table {
+  	border-collapse: collapse;
+}
+
+#robot-table th, td {
+  	border: 1px solid black;
+}
+
+#board-table {
+  	border-collapse: collapse;
+}
+
+#board-table th, td {
+  	border: 1px solid black;
+}
+
+td {
+	height: 20px;
+}
+
+#task-table td{
+	border: none;
+}

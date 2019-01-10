@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bot-O-Mat</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1 id="title">Bot-O-Mat</h1>
+
+		<div id="input-container">
+
+			<div id="name-input" class="start">
+				<div>Choose your robot's name:</div>
+				<input id="name" type="text"></br>
+				<div id="msg" style="color:red;"></div>
+			</div>
+			
+			<div id="type-input" class="start">
+				<div>Choose your robot's type:</div>
+				<select id="rbt_type">
+				  <option value="unipedal">Unipedal</option>
+				  <option value="bipedal">Bipedal</option>
+				  <option value="quadrupedal">Quadrupedal</option>
+				  <option value="arachnid">Arachnid</option>
+				  <option value="radial">Radial</option>
+				  <option value="aeronautical">Aeronautical</option>
+				</select>
+			</div>
+
+			<div id="create-button" class="start"><button id="create_btn">Create</button></div>
+		</div>
+		<br>
+		<div id="robot-list">
+			<h2>Robot List</h2>
+			<table id="robot-table">
+				<tr>
+					<th>ID</th>
+					<th>Type</th>
+					<th>Name</th>
+					<th>Exclusive Specialty Task</th>
+				</tr>
+			</table>
+		</div>
+
+		<div id="leaderboard">
+			<h2>Results</h2>
+			<table id="board-table">
+				<tr>
+					<th>ID</th>
+					<th>Type</th>
+					<th>Name</th>
+					<th>Tasks Completed</th>
+				</tr>
+			</table>
+		</div>
+
+		<div id="task-tracker">
+			<h2>Task Tracker</h2>
+			<table id="task-table"></table>
+		</div>
+
+	</body>
+</html>
